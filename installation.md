@@ -4,6 +4,7 @@ You have several options for getting ready for the tutorial:
  - Install several Python packages and have a working ARM
    cross-compilation toolchain.
  - Or use a VM we provide with the tools installed.
+ - For the non-physical parts of the tutorial, you can use [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/J08nY/pyecsca-tutorial-croatia2024/HEAD).
 
 We recommend installing things yourself as using a VM inherently brings
 issues.
