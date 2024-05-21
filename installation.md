@@ -25,14 +25,13 @@ environment to run the code during the tutorial.
 
 ### Build stuff
 
-`arm-none-eabi` toolchain with the [newlib](https://sourceware.org/newlib/) (also with the nano) variant.
+`arm-none-eabi` toolchain with the [newlib](https://sourceware.org/newlib/) (also with the nano variant).
 
 On Debian-like systems you should be OK with the following packages:
 
     binutils-arm-none-eabi
     gcc-arm-none-eabi
     libnewlib-arm-none-eabi
-    libnewlib-nano-arm-none-eabi
     make
 
 Optionally, having `gcc` or some other compiler for your host architecture enables you to compile the
