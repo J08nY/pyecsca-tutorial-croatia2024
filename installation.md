@@ -1,10 +1,9 @@
 # Installation
 
 You have several options for getting ready for the tutorial:
- - Install several Python packages and have a working ARM
-   cross-compilation toolchain.
+ - Install several Python packages.
+ - You can use [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/J08nY/pyecsca-tutorial-croatia2024/HEAD).
  - Or use a VM we provide with the tools installed.
- - For the non-physical parts of the tutorial, you can use [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/J08nY/pyecsca-tutorial-croatia2024/HEAD).
 
 We recommend installing things yourself as using a VM inherently brings
 issues.
@@ -20,27 +19,14 @@ There are several things you can check on your own, and some for which you need 
 
 ## Installing everything yourself
 
-You will need some ARM cross-compilation packages as well as a Python
-environment to run the code during the tutorial.
-
-### Build stuff
-
-`arm-none-eabi` toolchain with the [newlib](https://sourceware.org/newlib/) (also with the nano variant).
-
-On Debian-like systems you should be OK with the following packages:
-
-    binutils-arm-none-eabi
-    gcc-arm-none-eabi
-    libnewlib-arm-none-eabi
-    make
-
-Optionally, having `gcc` or some other compiler for your host architecture enables you to compile the
-target code to your host and run it there.
+You will need a Python environment to run the code during the tutorial.
 
 ### Python stuff
 
 `python >= 3.9` and installed dependencies from [requirements.txt](/requirements.txt), which
 include [pyecsca](https://neuromancer.sk/pyecsca/) and [ChipWhisperer](https://github.com/newaetech/chipwhisperer).
+
+Python 3.12 is kind of new and may bring some issues with other packages, we do not recommend it.
 
 #### Linux
 
@@ -70,5 +56,11 @@ Run the following commands:
 See the [ChipWhisperer installation docs](https://chipwhisperer.readthedocs.io/en/latest/windows-install.html).
 Then, ideally, install the [pyecsca](https://neuromancer.sk/pyecsca/) requirements into the ChipWhisperer installation.
 
+## Using MyBinder
+
+TODO
+
 ## Using a VM
+
+TODO
 
