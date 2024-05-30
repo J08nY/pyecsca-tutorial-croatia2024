@@ -2,4 +2,5 @@ pyecsca @ git+https://github.com/J08nY/pyecsca
 jupyter
 notebook
 tqdm
-
+tabulate
+seaborn
