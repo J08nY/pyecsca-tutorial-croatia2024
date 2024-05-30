@@ -1,5 +1,4 @@
-pyecsca [pari] @ git+https://github.com/J08nY/pyecsca
-pyecsca-codegen @ git+https://github.com/J08nY/pyecsca-codegen
+pyecsca @ git+https://github.com/J08nY/pyecsca
 jupyter
 notebook
 tqdm
