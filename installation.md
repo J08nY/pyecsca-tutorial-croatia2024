@@ -19,7 +19,7 @@ You have two options for getting ready for the tutorial:
 ### Jupyter Lab quickstart
 
 If you have not worked with Jupyter Lab before,
- you can have a look at this [handy tutorial](https://justinbois.github.io/bootcamp/2020_fsri/lessons/l01_welcome.html#Launching-a-Jupyter-notebook).
+ you can have a look at this [handy tutorial](https://justinbois.github.io/bootcamp/2020_fsri/lessons/l01_welcome.html#Launching-a-Jupyter-notebook),
  or at its [full documentation](https://jupyterlab.readthedocs.io/en/stable/user/interface.html).
 
 For the purposes of this tutorial, you will mainly need to know how to run cells.
@@ -34,7 +34,7 @@ You will need a Python environment to run the code during the tutorial.
 `python >= 3.9` and installed dependencies from [requirements.txt](/requirements.txt), which
 include [pyecsca](https://neuromancer.sk/pyecsca/).
 
-> [!CAUTION]
+> [!WARNING]
 > Python 3.12 is kind of new and may bring some issues with installing other packages, we do not recommend it.
 
 #### Linux
