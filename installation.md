@@ -25,6 +25,13 @@ If you have not worked with Jupyter Lab before,
 For the purposes of this tutorial, you will mainly need to know how to run cells.
 Either use the ![](notebooks/img/play.png) button or `Shift + Enter` to run the current cell and move to the next one.
 
+Make sure that you save your work (`Ctrl + S`) occasionally.
+
+You can use tab-completion to learn about the attributes or methods of an object.
+
+By typing `object?` you will get a help message with documentation of the object/function/class/method, same
+goes for `object.method?` or `class.method?`.
+
 ## Installing everything yourself
 
 You will need a Python environment to run the code during the tutorial.
@@ -47,9 +54,27 @@ python -m venv virt
 pip install -r requirements.txt
 ```
 
+Afterwards run:
+```bash
+python -m jupyter lab
+```
+to start Jupyter Lab.
+
 #### Windows
 
-TODO
+Ideally, use a virtual environment:
+
+```bat
+python -m venv virt
+.\virt\Scripts\activate
+pip install -r requirements.txt
+```
+
+Afterwards run:
+```bat
+python -m jupyter lab
+```
+to start Jupyter Lab.
 
 ## Using MyBinder
 
