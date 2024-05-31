@@ -10,7 +10,7 @@ You have two options for getting ready for the tutorial:
 
 ## How do I know the setup is ready?
 
-1. Run `jupyter lab` in the virtualenv with the mentioned Python packages installed. Open the
+1. Run `python -m jupyter lab` in the virtualenv with the mentioned Python packages installed. Open the
    `notebooks/start.ipynb` notebook and run the first cell with the imports.
    No errors (especially import ones) should be produced.
 2. You can continue running the rest of the prepared cells and play with the toolkit to
