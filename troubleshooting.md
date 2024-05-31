@@ -7,10 +7,10 @@ File "/virt/lib/python3.12/site-packages/pyviz_comms/init.py", line 340, in _han
 	self._on_msg(msg)
 File "/virt/lib/python3.12/site-packages/panel/viewable.py", line 469, in _on_msg
 	patch = manager.assemble(msg)
-			^^^^^^^^^^^^^^^^^^^^^
+            ^^^^^^^^^^^^^^^^^^^^^
 File "/virt/lib/python3.12/site-packages/panel/models/comm_manager.py", line 29, in assemble
 	msg_obj = cls(header, msg['metadata'], msg['content'])
-										   ~~~^^^^^^^^^^^
+                                           ~~~^^^^^^^^^^^
 KeyError: 'content'
 ```
 
