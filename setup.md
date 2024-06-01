@@ -11,9 +11,9 @@ You have two options for getting ready for the tutorial:
 Furthermore, please download the example trace sets:
  - All tracesets (preferred): [zip](https://neuromancer.sk/static/traces.zip) or [tar.gz](https://neuromancer.sk/static/traces.tar.gz)
  - Or individually:
-   - [**Traceset A**](https://neuromancer.sk/static/traces_A.pickle) 
-   - [**Traceset B**](https://neuromancer.sk/static/traces_B.pickle) 
-   - [**Traceset C**](https://neuromancer.sk/static/traces_C.pickle)  
+   - [Traceset A](https://neuromancer.sk/static/traces_A.pickle) 
+   - [Traceset B](https://neuromancer.sk/static/traces_B.pickle) 
+   - [Traceset C](https://neuromancer.sk/static/traces_C.pickle)  
 
 ## How do I know the setup is ready?
 
