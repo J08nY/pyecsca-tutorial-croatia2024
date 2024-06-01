@@ -14,6 +14,7 @@ Furthermore, please download the example trace sets:
    - [Traceset A](https://neuromancer.sk/static/traces_A.pickle) 
    - [Traceset B](https://neuromancer.sk/static/traces_B.pickle) 
    - [Traceset C](https://neuromancer.sk/static/traces_C.pickle)  
+   - [Traceset D](https://neuromancer.sk/static/traces_D.pickle)  
 
 ## How do I know the setup is ready?
 
