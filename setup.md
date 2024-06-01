@@ -1,8 +1,8 @@
 # Setup
 
 You have two options for getting ready for the tutorial:
- - Install several Python packages.
- - Use [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/J08nY/pyecsca-tutorial-croatia2024/HEAD).
+ - Install several Python packages. [More info](#installing-everything-yourself)
+ - Use [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/J08nY/pyecsca-tutorial-croatia2024/HEAD). [More info](#using-mybinder)
 
 > [!NOTE]
 > We recommend installing things yourself as myBinder has some limitations
