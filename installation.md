@@ -8,10 +8,10 @@ You have two options for getting ready for the tutorial:
 > We recommend installing things yourself as myBinder has some limitations
 > with regards to memory (only 2GB) and runtime (times out after 10 minutes of inactivity).
 
-## Download the traces and place them in the notebook folder:
- - **A**: [Download](https://neuromancer.sk/static/traces_A.pickle) 
- - **B**: [Download](https://neuromancer.sk/static/traces_B.pickle) 
- - **C**: [Download](https://neuromancer.sk/static/traces_C.pickle)  
+### To save time download the traces and place them in the notebook folder:
+ - **Traceset A**: [Download](https://neuromancer.sk/static/traces_A.pickle) 
+ - **Traceset B**: [Download](https://neuromancer.sk/static/traces_B.pickle) 
+ - **Traceset C**: [Download](https://neuromancer.sk/static/traces_C.pickle)  
 
 
 ## How do I know the setup is ready?
