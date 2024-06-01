@@ -1,4 +1,4 @@
-# Installation
+# Setup
 
 You have two options for getting ready for the tutorial:
  - Install several Python packages.
@@ -8,18 +8,21 @@ You have two options for getting ready for the tutorial:
 > We recommend installing things yourself as myBinder has some limitations
 > with regards to memory (only 2GB) and runtime (times out after 10 minutes of inactivity).
 
-### To save time download the traces and place them in the notebook folder:
- - **Traceset A**: [Download](https://neuromancer.sk/static/traces_A.pickle) 
- - **Traceset B**: [Download](https://neuromancer.sk/static/traces_B.pickle) 
- - **Traceset C**: [Download](https://neuromancer.sk/static/traces_C.pickle)  
-
+Furthermore, please download the example trace sets:
+ - All tracesets (preferred): [zip](https://neuromancer.sk/static/traces.zip) or [tar.gz](https://neuromancer.sk/static/traces.tar.gz)
+ - Or individually:
+   - [**Traceset A**](https://neuromancer.sk/static/traces_A.pickle) 
+   - [**Traceset B**](https://neuromancer.sk/static/traces_B.pickle) 
+   - [**Traceset C**](https://neuromancer.sk/static/traces_C.pickle)  
 
 ## How do I know the setup is ready?
 
-1. Run `python -m jupyter lab` in the virtualenv with the mentioned Python packages installed. Open the
+1. You have cloned this repository and have a virtualenv with the requirements installed in it.
+2. You have downloaded the tracesets above and placed them into the `notebooks` diretory.
+3. Run `python -m jupyter lab` in the virtualenv with the mentioned Python packages installed. Open the
    `notebooks/start.ipynb` notebook and run the first cell with the imports.
-   No errors (especially import ones) should be produced.
-2. You can continue running the rest of the prepared cells and play with the toolkit to
+   No errors (especially import ones) should be produced. See [troubleshooting.md] if they are.
+4. You can continue running the rest of the prepared cells and play with the toolkit to
    learn about some of its API.
 
 
