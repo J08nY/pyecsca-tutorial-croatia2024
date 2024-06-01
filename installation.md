@@ -8,6 +8,12 @@ You have two options for getting ready for the tutorial:
 > We recommend installing things yourself as myBinder has some limitations
 > with regards to memory (only 2GB) and runtime (times out after 10 minutes of inactivity).
 
+## Download the traces and place them in the notebook folder:
+ - **A**: [Download](https://neuromancer.sk/static/traces_A.pickle) 
+ - **B**: [Download](https://neuromancer.sk/static/traces_B.pickle) 
+ - **C**: [Download](https://neuromancer.sk/static/traces_C.pickle)  
+
+
 ## How do I know the setup is ready?
 
 1. Run `python -m jupyter lab` in the virtualenv with the mentioned Python packages installed. Open the
@@ -15,6 +21,7 @@ You have two options for getting ready for the tutorial:
    No errors (especially import ones) should be produced.
 2. You can continue running the rest of the prepared cells and play with the toolkit to
    learn about some of its API.
+
 
 ### Jupyter Lab quickstart
 
