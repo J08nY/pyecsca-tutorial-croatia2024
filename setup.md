@@ -52,6 +52,9 @@ You will need a Python environment to run the code during the tutorial.
 `python >= 3.9` and installed dependencies from [requirements.txt](/requirements.txt), which
 include [pyecsca](https://neuromancer.sk/pyecsca/).
 
+You can find **known-good versions of the packages** in the [known.txt](/known.txt) file, which
+you can use instead of the requirements file.
+
 > [!WARNING]
 > Python 3.12 is kind of new and may bring some issues with installing other packages, we do not recommend it.
 
