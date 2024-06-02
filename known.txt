@@ -107,7 +107,7 @@ pure-eval==0.2.2
 pyarrow==16.1.0
 pycparser==2.22
 pyct==0.5.0
-pyecsca @ git+https://github.com/J08nY/pyecsca@a4b4203e87842778574b08572d9a9f6d711e5a26
+pyecsca @ git+https://github.com/J08nY/pyecsca@6302e569e92baabc9ca7b18f152c8ce6331a1724
 Pygments==2.18.0
 pyparsing==3.1.2
 python-dateutil==2.9.0.post0
@@ -148,6 +148,7 @@ wcwidth==0.2.13
 webcolors==1.13
 webencodings==0.5.1
 websocket-client==1.8.0
+wheel==0.43.0
 widgetsnbextension==4.0.11
 xarray==2024.5.0
 xyzservices==2024.4.0
