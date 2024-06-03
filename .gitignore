@@ -1,2 +1,6 @@
 .ipynb_checkpoints/
 /virt/
+traces_A.pickle
+traces_B.pickle
+traces_C.pickle
+traces_D.pickle
