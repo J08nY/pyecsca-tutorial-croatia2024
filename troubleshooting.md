@@ -1,3 +1,28 @@
+## I see empty space instead of plots
+
+You are not seeing any plots even in cells that should have them.
+
+### Solution
+What may be happening is that Bokeh (the plotting library we are using)
+requires loading some JavaScript on the client side. This JavaScript load
+may not work in case you do not have a reliable Internet connection or have
+some browser extensions that are blocking it.
+
+Make sure you have a reliable Internet connection while working with the notebook
+(especially while running the cell that contains the `hv.extension("bokeh")` call)
+and make sure no requests like this are blocked.
+
+You can check the browser developer tools console for the dropped requests.
+
+## I see `:DynamicMap   []` instead of plots
+
+You are seeing `:DynamicMap   []` in place of plots.
+
+### Solution
+
+Run the cell that contains the `hv.extension("bokeh")` call (usually one of the first)
+that initializes the plotting library.
+
 ## KeyError: 'content'
 
 You are getting cryptic error messages when trying to plot (any `plot_trace` call):

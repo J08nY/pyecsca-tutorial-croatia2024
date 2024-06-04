@@ -3,6 +3,7 @@
 You have two options for getting ready for the tutorial:
  - Install several Python packages. [More info](#installing-everything-yourself)
  - Use [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/J08nY/pyecsca-tutorial-croatia2024/HEAD). [More info](#using-mybinder)
+ - Use [![Static Badge](https://img.shields.io/badge/docker-available-blue?logo=docker)](https://hub.docker.com/r/j08ny/pyecsca-tutorial-croatia2024). [More info](#using-docker)
 
 > [!NOTE]
 > We recommend installing things yourself as myBinder has some limitations
@@ -100,3 +101,14 @@ and wait for the Jupyter lab interface to load.
 
 Some exercises require you to download trace sets. To do this on MyBinder, use a terminal session
 and download them using the `wget` command (i.e. `wget <URL>`).
+
+
+## Using Docker
+
+We created a Docker image with everything prepared for the tutorial, available [here](https://hub.docker.com/r/j08ny/pyecsca-tutorial-croatia2024).
+Ensure you have Docker running and then run the commands below.
+
+```bash
+docker pull j08ny/pyecsca-tutorial-croatia2024
+docker run --rm -p 8888:8888 j08ny/pyecsca-tutorial-croatia2024 jupyter lab --ip 0.0.0.0
+```

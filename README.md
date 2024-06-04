@@ -9,5 +9,3 @@ what ECC implementations look like and how to actually reverse-engineer them aut
 side-channel analysis.
 
 See the [setup](setup.md) instructions, if something doesn't work see [troubleshooting](troubleshooting.md).
-
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/J08nY/pyecsca-tutorial-croatia2024/HEAD)
