@@ -1,4 +1,4 @@
-panel==1.4.2
+panel==1.4.4
 pyecsca @ git+https://github.com/J08nY/pyecsca
 jupyter
 notebook
