@@ -112,3 +112,7 @@ Ensure you have Docker running and then run the commands below.
 docker pull j08ny/pyecsca-tutorial-croatia2024
 docker run --rm -p 8888:8888 j08ny/pyecsca-tutorial-croatia2024 jupyter lab --ip 0.0.0.0
 ```
+
+> [!WARNING]
+> Note that when you shutdown the Docker container you will lose all of your progress in the notebooks.
+> If you want to save your progress, download the notebooks using the Download button at the top of the JupyterLab tab.
