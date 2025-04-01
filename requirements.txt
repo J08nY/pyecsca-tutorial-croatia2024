@@ -48,7 +48,7 @@ ipython==8.25.0
 ipywidgets==8.1.3
 isoduration==20.11.0
 jedi==0.19.1
-jinja2==3.1.4
+jinja2==3.1.6
 json5==0.9.25
 jsonpointer==2.4
 jsonschema[format-nongpl]==4.22.0
@@ -69,6 +69,7 @@ kiwisolver==1.4.5
 linkify-it-py==2.0.3
 llvmlite==0.42.0
 locket==1.0.0
+loky==3.5.1
 markdown==3.6
 markdown-it-py==3.0.0
 markupsafe==2.1.5
