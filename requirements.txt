@@ -69,6 +69,7 @@ kiwisolver==1.4.5
 linkify-it-py==2.0.3
 llvmlite==0.42.0
 locket==1.0.0
+loky==3.5.1
 markdown==3.6
 markdown-it-py==3.0.0
 markupsafe==2.1.5
@@ -84,7 +85,7 @@ nbconvert==7.16.4
 nbformat==5.10.4
 nest-asyncio==1.6.0
 networkx==3.3
-notebook==7.2.0
+notebook==7.2.2
 notebook-shim==0.2.4
 numba==0.59.1
 numpy==1.26.4
